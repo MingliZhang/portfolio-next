@@ -1,9 +1,29 @@
 import { GetServerSideProps, GetStaticProps } from "next";
-// import { services } from "../data";
+import SpecialtyCard from "../components/SpecialtyCard";
+import { specialties } from "../data";
 const index = () => {
     return (
-        <div>
-            <h5></h5>
+        <div className="flex flex-col flex-grow px-6 pt-1">
+            <h5 className="my-3 font-medium">
+                I am currently a senior undergraduate student pursuing a
+                computer science(BS) and mathematics(BS) degree, planning on
+                pursuing a masters dgree in computer science next year.
+            </h5>
+            <div
+                className="flex-grow p-4 mt-5 bg-gray-400"
+                style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+            >
+                <h6 className="my-3 text-xl font-bold tracking-wide">
+                    What I Offer
+                </h6>
+                <div className="grid gap-6 lg:grid-cols-2">
+                    {specialties.map((specialty) => (
+                        <div className="bg-gray-200 rounded-lg lg:col-span-1">
+                            <SpecialtyCard specialty={specialty} />
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

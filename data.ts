@@ -1,20 +1,45 @@
 import { RiComputerLine } from "react-icons/ri";
-import { IService } from "./type";
+import { ISpecialty } from "./type";
 
-export const services: IService[] = [
+export const specialties: ISpecialty[] = [
     {
         title: "Frontend Dev",
-        about: "lorem...",
-        icon: RiComputerLine,
+        about: "lorem... <b>HTML</b>",
+        Icon: RiComputerLine,
     },
     {
         title: "Backend Dev",
         about: "lorem...",
-        icon: RiComputerLine,
+        Icon: RiComputerLine,
     },
     {
         title: "Full stack dev",
         about: "Lorem...",
-        icon: RiComputerLine,
+        Icon: RiComputerLine,
+    },
+    {
+        title: "Frontend Dev",
+        about: "lorem...",
+        Icon: RiComputerLine,
+    },
+    {
+        title: "Backend Dev",
+        about: "lorem...",
+        Icon: RiComputerLine,
+    },
+    {
+        title: "Full stack dev",
+        about: "Lorem...",
+        Icon: RiComputerLine,
+    },
+    {
+        title: "Frontend Dev",
+        about: "lorem...",
+        Icon: RiComputerLine,
+    },
+    {
+        title: "Backend Dev",
+        about: "lorem...",
+        Icon: RiComputerLine,
     },
 ];

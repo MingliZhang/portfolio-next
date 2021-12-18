@@ -1,7 +1,7 @@
 import { IconType } from "react-icons";
 
-export interface IService {
+export interface ISpecialty {
     title: string;
     about: string;
-    icon: IconType;
+    Icon: IconType;
 }
