@@ -12,4 +12,9 @@ export const services: IService[] = [
         about: "lorem...",
         icon: RiComputerLine,
     },
+    {
+        title: "Full stack dev",
+        about: "Lorem...",
+        icon: RiComputerLine,
+    },
 ];
