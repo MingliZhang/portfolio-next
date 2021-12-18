@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
-import { services } from "../../data";
+import { specialties } from "../../data";
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
-    res.status(200).json({ services });
+    res.status(200).json({ specialties });
 };
