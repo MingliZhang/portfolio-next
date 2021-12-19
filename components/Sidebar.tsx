@@ -7,10 +7,13 @@ import {
 } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
+import { useTheme } from "next-themes";
 
 const Sidebar = () => {
+    const { theme, setTheme } = useTheme();
+    const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
     return (
-        <div>
+        <>
             <img
                 src="/Profile-pic.jpg"
                 alt="Profile image of me"
@@ -53,7 +56,7 @@ const Sidebar = () => {
                     <span>Chapel Hill, USA</span>
                 </div>
                 <p className="my-2">zml2416154671@gmail.com</p>
-                <p className="my-2">9192745562</p>
+                <p className="my-2">(919)274-5562</p>
             </div>
             <button
                 className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
@@ -61,10 +64,13 @@ const Sidebar = () => {
             >
                 Email Me
             </button>
-            <button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
-                Light UI
+            <button
+                className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400"
+                onClick={toggleTheme}
+            >
+                Toggle Theme
             </button>
-        </div>
+        </>
     );
 };
 
