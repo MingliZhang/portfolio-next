@@ -10,7 +10,7 @@ const index = () => {
                 pursuing a masters dgree in computer science next year.
             </h5>
             <div
-                className="flex-grow p-4 mt-5 bg-gray-400"
+                className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
                 style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
                 <h6 className="my-3 text-xl font-bold tracking-wide">
@@ -18,7 +18,7 @@ const index = () => {
                 </h6>
                 <div className="grid gap-6 lg:grid-cols-2">
                     {specialties.map((specialty) => (
-                        <div className="bg-gray-200 rounded-lg lg:col-span-1">
+                        <div className="bg-gray-200 rounded-lg lg:col-span-1 dark:bg-dark-200">
                             <SpecialtyCard specialty={specialty} />
                         </div>
                     ))}

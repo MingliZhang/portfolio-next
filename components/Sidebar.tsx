@@ -15,19 +15,19 @@ const Sidebar = () => {
     return (
         <>
             <img
-                src="/Profile-pic.jpg"
+                src="/images/Profile-pic.jpg"
                 alt="Profile image of me"
                 className="w-32 h-32 mx-auto rounded-full"
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Mingli </span>Zhang
             </h3>
-            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">
+            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 Web Developer
             </p>
             <a
-                className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
-                href="/Resume.pdf"
+                className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
+                href="/documents/Resume.pdf"
                 download="Mingli Zhang's resume"
             >
                 <GiTie className="w-6 h-6 " />
@@ -48,7 +48,7 @@ const Sidebar = () => {
                 </a>
             </div>
             <div
-                className="py-4 my-5 bg-gray-200"
+                className="py-4 my-5 bg-gray-200 dark:bg-dark-200"
                 style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
             >
                 <div className="flex items-center justify-center space-x-2">
