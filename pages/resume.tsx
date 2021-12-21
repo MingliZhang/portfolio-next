@@ -1,6 +1,6 @@
 import { languages, frameworks_libraries } from "../data";
 import Bar from "../components/Bar";
-const resume = () => {
+const Resume = () => {
     return (
         <div className="px-6 py-2">
             <div className="grid gap-6 md:grid-cols-2">
@@ -66,4 +66,4 @@ const resume = () => {
     );
 };
 
-export default resume;
+export default Resume;

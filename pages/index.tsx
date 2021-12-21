@@ -1,7 +1,7 @@
 import { GetServerSideProps, GetStaticProps } from "next";
 import SpecialtyCard from "../components/SpecialtyCard";
 import { specialties } from "../data";
-const index = () => {
+const Index = () => {
     return (
         <div className="flex flex-col flex-grow px-6 pt-1">
             <h5 className="my-3 font-medium">
@@ -28,7 +28,7 @@ const index = () => {
     );
 };
 
-export default index;
+export default Index;
 
 // export const getStaticProps = async (context: GetStaticProps) => {
 //     const res = await fetch("http://localhost:3000/api/services");

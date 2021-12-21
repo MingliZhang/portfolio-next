@@ -17,7 +17,9 @@ const Sidebar = () => {
             <img
                 src="/images/Profile-pic.jpg"
                 alt="Profile image of me"
-                className="w-32 h-32 mx-auto rounded-full"
+                height="128px"
+                width="128px"
+                className="mx-auto rounded-full "
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Mingli </span>Zhang
