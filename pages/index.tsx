@@ -21,7 +21,10 @@ const Index = () => {
                 </h6>
                 <div className="grid gap-6 lg:grid-cols-2">
                     {specialties.map((specialty) => (
-                        <div className="bg-gray-200 rounded-lg lg:col-span-1 dark:bg-dark-200">
+                        <div
+                            className="bg-gray-200 rounded-lg lg:col-span-1 dark:bg-dark-200"
+                            key={specialty.title}
+                        >
                             <SpecialtyCard specialty={specialty} />
                         </div>
                     ))}

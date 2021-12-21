@@ -16,7 +16,7 @@ const Resume = () => {
                         <p className="my-3">
                             I am currently persuing computer science (BS) and
                             mathematics(BS) degree. Planning on persuing a
-                            Master's degree in computer science.
+                            Masters degree in computer science.
                         </p>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const Resume = () => {
                         <p className="my-3">
                             I am currently persuing computer science (BS) and
                             mathematics(BS) degree. Planning on persuing a
-                            Master's degree in computer science.
+                            Masters degree in computer science.
                         </p>
                     </div>
                 </div>
