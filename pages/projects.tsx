@@ -1,8 +1,12 @@
+import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectNavBar from "../components/ProjectNavBar";
 
-import { projects } from "../data";
+import { projects as projectsData } from "../data";
 const Projects = () => {
+    const [projects, setProjects] = useState(projectsData);
+
+    const handelFilterCatagory = () => { };
     return (
         <div className="px-5 py-2 overflow-y-auto" style={{ height: "65vh" }}>
             <ProjectNavBar />
