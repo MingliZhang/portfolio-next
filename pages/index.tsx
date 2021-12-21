@@ -3,7 +3,10 @@ import SpecialtyCard from "../components/SpecialtyCard";
 import { specialties } from "../data";
 const Index = () => {
     return (
-        <div className="flex flex-col flex-grow px-6 pt-1">
+        <div
+            className="flex flex-col flex-grow px-6 pt-1 overflow-y-auto"
+            style={{ height: "65vh" }}
+        >
             <h5 className="my-3 font-medium">
                 I am currently a senior undergraduate student pursuing a
                 computer science(BS) and mathematics(BS) degree, planning on
