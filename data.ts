@@ -25,12 +25,12 @@ export const specialties: ISpecialty[] = [
     },
     {
         title: "Quality Assurance",
-        about: "",
+        about: "I have experience in doing full depth quality assurance and provide critical feedback for bug fixes and extream user error cases.",
         Icon: RiComputerLine,
     },
     {
         title: "Data visualization",
-        about: "",
+        about: "I have experiance in using <b>tableau</b> to visualize data into visual profiles and upload them to websites",
         Icon: RiComputerLine,
     },
     {
