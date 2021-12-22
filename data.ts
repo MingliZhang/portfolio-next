@@ -14,6 +14,11 @@ export const specialties: ISpecialty[] = [
         Icon: RiComputerLine,
     },
     {
+        title: "Image Processing",
+        about: "I have significant knowledge about image processing using <b>C++</b> and <b>Matlab</b> with great efficency.",
+        Icon: RiComputerLine,
+    },
+    {
         title: "UX Design Workflow",
         about: "I am able to deliver a well thought out and easy to understand UX workflow using <b>draw.io</b>",
         Icon: RiComputerLine,
@@ -39,28 +44,33 @@ export const specialties: ISpecialty[] = [
         Icon: RiComputerLine,
     },
     {
-        title: "Tech advices",
+        title: "Tech",
         about: "I am up to date with what the latest hardware and software has to offer.",
         Icon: RiComputerLine,
     },
 ];
 
 export const languages: ISkill[] = [
-    { name: "Python", level: "80%", Icon: BsCircleFill },
-    { name: "Javascript", level: "80%", Icon: BsCircleFill },
-    { name: "Java", level: "80%", Icon: BsCircleFill },
-    { name: "C++", level: "80%", Icon: BsCircleFill },
+    { name: "Javascript", level: "98%", Icon: BsCircleFill },
+    { name: "Typescript", level: "95%", Icon: BsCircleFill },
+    { name: "C", level: "95%", Icon: BsCircleFill },
+    { name: "C++", level: "90%", Icon: BsCircleFill },
+    { name: "Python", level: "90%", Icon: BsCircleFill },
+    { name: "Java", level: "75%", Icon: BsCircleFill },
+    { name: "Matlab", level: "80%", Icon: BsCircleFill },
+    { name: "Racket", level: "60%", Icon: BsCircleFill },
+    { name: "Prolog", level: "40%", Icon: BsCircleFill },
 ];
 
 export const frameworks_libraries: ISkill[] = [
-    { name: "Sails.js", level: "80%", Icon: BsCircleFill },
+    { name: "Sails.js", level: "60%", Icon: BsCircleFill },
     { name: "Next.js", level: "80%", Icon: BsCircleFill },
-    { name: "Flask", level: "80%", Icon: BsCircleFill },
+    { name: "Flask", level: "90%", Icon: BsCircleFill },
     { name: "React", level: "80%", Icon: BsCircleFill },
-    { name: "Tailwind", level: "80%", Icon: BsCircleFill },
-    { name: "BootStrap", level: "80%", Icon: BsCircleFill },
-    { name: "Tailwind", level: "80%", Icon: BsCircleFill },
-    { name: "BootStrap", level: "80%", Icon: BsCircleFill },
+    { name: "Tailwind", level: "75%", Icon: BsCircleFill },
+    { name: "BootStrap", level: "90%", Icon: BsCircleFill },
+    { name: "jQuery", level: "90%", Icon: BsCircleFill },
+    { name: "express.js", level: "70%", Icon: BsCircleFill },
 ];
 
 export const projects: IProject[] = [
