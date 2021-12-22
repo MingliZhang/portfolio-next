@@ -13,12 +13,13 @@ export interface ISkill {
 }
 
 export interface IProject {
+    id: number; 
     name: string;
     description: string;
     image_path: string;
     deployed_url: string;
     github_url: string;
-    catagory: Category[];
+    category: Category[];
     key_techs: string[];
 }
 

@@ -1,26 +1,64 @@
+import { motion } from "framer-motion";
 import { useState } from "react";
+import { fadeInup, routeAnimation, stagger } from "../animations";
 import ProjectCard from "../components/ProjectCard";
 import ProjectNavBar from "../components/ProjectNavBar";
 
 import { projects as projectsData } from "../data";
+import { Category } from "../type";
 const Projects = () => {
     const [projects, setProjects] = useState(projectsData);
+    const [active, setActive] = useState("all");
 
-    const handelFilterCatagory = () => { };
+    const [showDetail, setShowDetail] = useState<number | null>(null);
+
+    const handlerFilterCategory = (category: Category | "all") => {
+        if (category === "all") {
+            setProjects(projectsData);
+            setActive("all");
+            return;
+        }
+        setProjects(
+            projectsData.filter((project) =>
+                project.category.includes(category)
+            )
+        );
+        setActive(category);
+    };
     return (
-        <div className="px-5 py-2 overflow-y-auto" style={{ height: "65vh" }}>
-            <ProjectNavBar />
-            <div className="relative grid grid-cols-12 gap-4 my-3">
+        <motion.div
+            className="px-5 py-2 overflow-y-auto"
+            style={{ height: "65vh" }}
+            variants={routeAnimation}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+        >
+            <ProjectNavBar
+                handlerFilterCategory={handlerFilterCategory}
+                active={active}
+            />
+            <motion.div
+                className="relative grid grid-cols-12 gap-4 my-3"
+                variants={stagger}
+                initial="initial"
+                animate="animate"
+            >
                 {projects.map((project) => (
-                    <div
+                    <motion.div
+                        variants={fadeInup}
                         className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
                         key={project.name}
                     >
-                        <ProjectCard project={project} />
-                    </div>
+                        <ProjectCard
+                            project={project}
+                            showDetail={showDetail}
+                            setShowDetail={setShowDetail}
+                        />
+                    </motion.div>
                 ))}
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     );
 };
 

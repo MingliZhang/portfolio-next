@@ -1,11 +1,17 @@
 import { FunctionComponent } from "react";
 import { Category } from "../type";
 
-const ProjectNavItem: FunctionComponent<{ value: Category | "all" }> = ({
-    value,
-}) => {
+const ProjectNavItem: FunctionComponent<{
+    value: Category | "all";
+    handlerFilterCategory: Function;
+    active: string;
+}> = ({ value, handlerFilterCategory, active }) => {
+    let classes = "capitalize cursor-pointer hover:text-green";
+    if (active === value) classes += " text-green";
     return (
-        <li className="capitalize cursor-pointer hover:text-green">{value}</li>
+        <li className={classes} onClick={() => handlerFilterCategory(value)}>
+            {value}
+        </li>
     );
 };
 

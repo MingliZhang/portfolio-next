@@ -14,13 +14,22 @@ const Sidebar = () => {
     const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light");
     return (
         <>
-            <img
+            <Image
+                src="/images/Profile-pic.jpg"
+                alt="Profile image of me"
+                height="128"
+                width="128"
+                className="mx-auto rounded-full"
+                layout="intrinsic"
+                quality={100}
+            />
+            {/* <img
                 src="/images/Profile-pic.jpg"
                 alt="Profile image of me"
                 height="128px"
                 width="128px"
                 className="mx-auto rounded-full "
-            />
+            /> */}
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Mingli </span>Zhang
             </h3>
@@ -38,7 +47,7 @@ const Sidebar = () => {
             <a
                 className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
                 href="/documents/Resume.pdf"
-                download="Mingli Zhang's resume"
+                download="Mingli Zhang's resume.pdf"
             >
                 <GiTie className="w-6 h-6 " />
                 Download Resume
