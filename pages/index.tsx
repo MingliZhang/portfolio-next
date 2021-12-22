@@ -30,7 +30,7 @@ const Index = () => {
                 style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
                 <h6 className="my-3 text-xl font-bold tracking-wide">
-                    What I Offer
+                    My specialties
                 </h6>
                 <motion.div
                     className="grid gap-6 lg:grid-cols-2"
