@@ -5,52 +5,42 @@ import { ISpecialty, ISkill, IProject } from "./type";
 export const specialties: ISpecialty[] = [
     {
         title: "Frontend Dev",
-        about: "lorem... <b>HTML</b>",
+        about: "I can build efficent and beautiful websites using <b>React</b>, <b>Next.js</b>, and <b>Flask</b>. I can also a fast learner to new frameworks.",
         Icon: RiComputerLine,
     },
     {
         title: "Backend Dev",
-        about: "lorem...",
+        about: "I have expeience API building using <b>express.js</b> and <b>Sails.js</b> while connecting to <b>Firebase</b> and <b>MongoDB</b>.",
         Icon: RiComputerLine,
     },
     {
-        title: "Full stack dev",
-        about: "Lorem...",
+        title: "UX Design Workflow",
+        about: "I am able to deliver a well thought out and easy to understand UX workflow using <b>draw.io</b>",
         Icon: RiComputerLine,
     },
     {
-        title: "Frontend Dev",
-        about: "lorem...",
+        title: "Testing",
+        about: "I have expeience in <b>test first development</b> and can use <b?postman/thunder client</b> to make automated testing for APIs",
         Icon: RiComputerLine,
     },
     {
-        title: "Backend Dev",
-        about: "lorem...",
+        title: "Quality Assurance",
+        about: "",
         Icon: RiComputerLine,
     },
     {
-        title: "Full stack dev",
-        about: "Lorem...",
+        title: "Data visualization",
+        about: "",
         Icon: RiComputerLine,
     },
     {
-        title: "Frontend Dev",
-        about: "lorem...",
+        title: "Cooking",
+        about: "I love baking and cooking western and Chinese food.",
         Icon: RiComputerLine,
     },
     {
-        title: "Backend Dev",
-        about: "lorem...",
-        Icon: RiComputerLine,
-    },
-    {
-        title: "Frontend Dev",
-        about: "lorem...",
-        Icon: RiComputerLine,
-    },
-    {
-        title: "Backend Dev",
-        about: "lorem...",
+        title: "Tech advices",
+        about: "I am up to date with what the latest hardware and software has to offer.",
         Icon: RiComputerLine,
     },
 ];

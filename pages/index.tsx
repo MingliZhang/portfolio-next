@@ -56,9 +56,10 @@ const Index = () => {
 export default Index;
 
 // export const getStaticProps = async (context: GetStaticProps) => {
-//     const res = await fetch("http://localhost:3000/api/services");
+//     console.log(process.env.VERCEL_URL);
+//     const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
 //     const data = await res.json();
-
+//     console.log(data);
 //     return {
 //         props: {
 //             services: data.services,
