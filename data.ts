@@ -79,7 +79,7 @@ export const projects: IProject[] = [
         name: "Miaomiao Social App",
         description:
             "A social web app that consists of a personality test, anonymous post/Q&A to friends, group chat, and a quiz game to compete with each other. There is also a bad language filter implemented using third party API.",
-        image_path: "/images/miaomiao-chat.png",
+        image_path: "/images/miaomiao-chat.jpg",
         deployed_url: "https://miaomiao-chat.herokuapp.com/",
         github_url: "https://github.com/MingliZhang/final_426",
         category: ["jquery", "css", "firebase", "express"],
@@ -90,7 +90,7 @@ export const projects: IProject[] = [
         name: "Real news detection",
         description:
             "Collaborated on a team of three classmates. Used logistic regression, Naive Bayes, support vector machine, and LSTM to train the computer to distinguish between real and fake news and we compared the accuracy of each model. The data is from Kaggle.",
-        image_path: "/images/Machine-learning.png",
+        image_path: "/images/news.jpg",
         deployed_url: "https://miaomiao-chat.herokuapp.com/",
         github_url: "https://github.com/MingliZhang/COMP-562-Final-Project",
         category: ["jquery", "css", "firebase", "express"],
@@ -101,7 +101,7 @@ export const projects: IProject[] = [
         name: "2048",
         description:
             "Implemented the classic 2048 game with a game model for modern web development course. The entire project took a day to finish and debug.",
-        image_path: "/images/2048.png",
+        image_path: "/images/2048.jpg",
         deployed_url: "",
         github_url: "https://github.com/MingliZhang/2048",
         category: ["jquery", "css"],
