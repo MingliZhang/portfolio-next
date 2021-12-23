@@ -123,8 +123,8 @@ export const projects: IProject[] = [
         image_path: "/images/old-portfolio.jpg",
         deployed_url: "https://portfolio-a6fab.web.app/",
         github_url: "https://github.com/MingliZhang/portfolio",
-        category: ["jQuery"],
-        key_techs: ["JQuery", "HTML", "CSS"],
+        category: ["jQuery", "express.js"],
+        key_techs: ["JQuery", "express.js", "HTML", "CSS"],
     },
     {
         id: 4,
@@ -134,8 +134,8 @@ export const projects: IProject[] = [
         image_path: "/images/new-portfolio.jpg",
         deployed_url: "https://minglizhang.com/",
         github_url: "https://github.com/MingliZhang/portfolio-next",
-        category: ["next.js"],
-        key_techs: ["next.js", "Tailwindcss", "framer-motion"],
+        category: ["next.js", "react"],
+        key_techs: ["next.js", "react", "Tailwindcss", "framer-motion"],
     },
     {
         id: 5,
@@ -145,8 +145,8 @@ export const projects: IProject[] = [
         image_path: "/images/IBM.jpg",
         deployed_url: null,
         github_url: null,
-        category: ["next.js", "sails.js"],
-        key_techs: ["next.js", "Carbon", "sails.js"],
+        category: ["next.js", "react", "sails.js"],
+        key_techs: ["next.js", "react", "Carbon", "sails.js"],
     },
     {
         id: 6,
@@ -159,5 +159,38 @@ export const projects: IProject[] = [
             "https://github.com/MingliZhang/How-to-Get-Away-from-Covid-19",
         category: ["jQuery"],
         key_techs: ["jQuery"],
+    },
+    {
+        id: 7,
+        name: "Easy Access",
+        description:
+            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+        image_path: "/images/easyAccess.jpg",
+        deployed_url: "https://easyaccess-9ffaa.web.app/",
+        github_url: null,
+        category: ["react", "sails.js", "mongoDB"],
+        key_techs: ["react", "sails.js", "mongoDB"],
+    },
+    {
+        id: 8,
+        name: "CountDown 2030 Country Profiles",
+        description:
+            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+        image_path: "/images/CD2030.jpg",
+        deployed_url: null,
+        github_url: "https://www.countdown2030.org/landing_page",
+        category: ["jQuery"],
+        key_techs: ["jQuery", "wordPress"],
+    },
+    {
+        id: 9,
+        name: "Pattie",
+        description:
+            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+        image_path: "/images/pattie.jpg",
+        deployed_url: "https://pattie.cymantix.com/",
+        github_url: null,
+        category: ["flask"],
+        key_techs: ["flask"],
     },
 ];

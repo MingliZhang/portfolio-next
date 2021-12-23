@@ -28,6 +28,7 @@ export type Category =
     | "next.js"
     | "sails.js"
     | "node.js"
+    | "flask"
     | "firebase"
     | "express.js"
     | "mongoDB"
