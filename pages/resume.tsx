@@ -48,9 +48,15 @@ const Resume = () => {
                         </h5>
                         <p className="font-semibold">Cymantix (2021-present)</p>
                         <p className="my-3">
-                            I am currently persuing computer science (BS) and
-                            mathematics(BS) degree. Planning on persuing a
-                            Masters degree in computer science.
+                            Working on the upload feature of{" "}
+                            <a
+                                href="https://www.cymantix.com/pattie"
+                                className="text-blue-400"
+                            >
+                                Pattie
+                            </a>
+                            . Also in charge of the quality assuance of Pattie
+                            and other projects.
                         </p>
                     </div>
                 </motion.div>
