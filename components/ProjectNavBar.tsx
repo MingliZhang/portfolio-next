@@ -13,6 +13,8 @@ const ProjectNavBar: FunctionComponent<{
             <ProjectNavItem value="jQuery" {...props} />
             <ProjectNavItem value="express.js" {...props} />
             <ProjectNavItem value="python" {...props} />
+            <ProjectNavItem value="c++" {...props} />
+            <ProjectNavItem value="matlab" {...props} />
         </div>
     );
 };

@@ -25,6 +25,8 @@ export interface IProject {
 
 export type Category =
     | "react"
+    | "c++"
+    | "matlab"
     | "next.js"
     | "sails.js"
     | "node.js"

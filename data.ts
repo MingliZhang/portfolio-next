@@ -141,7 +141,7 @@ export const projects: IProject[] = [
         id: 5,
         name: "Tech Zone",
         description:
-            "I worked on this project during my internship at IBM as a full stack developer. Becasue this is a IBM internal plateform, no github repo or URL available.",
+            "I worked on this project during my internship at IBM as a full stack developer. Becasue this is a IBM internal platform, no github repo or URL available.",
         image_path: "/images/IBM.jpg",
         deployed_url: null,
         github_url: null,
@@ -164,7 +164,7 @@ export const projects: IProject[] = [
         id: 7,
         name: "Easy Access",
         description:
-            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+            "A platform for high school students that cannot get enough consultation for college application. The project was brought to me for a coures and passed on to future developers.",
         image_path: "/images/easyAccess.jpg",
         deployed_url: "https://easyaccess-9ffaa.web.app/",
         github_url: null,
@@ -175,10 +175,10 @@ export const projects: IProject[] = [
         id: 8,
         name: "CountDown 2030 Country Profiles",
         description:
-            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+            "Data visualization for UNICEF. This is the project from my college's information science lab CHIP.",
         image_path: "/images/CD2030.jpg",
-        deployed_url: null,
-        github_url: "https://www.countdown2030.org/landing_page",
+        deployed_url: "https://www.countdown2030.org/landing_page",
+        github_url: null,
         category: ["jQuery"],
         key_techs: ["jQuery", "wordPress"],
     },
@@ -186,11 +186,33 @@ export const projects: IProject[] = [
         id: 9,
         name: "Pattie",
         description:
-            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+            "A search engine that uses machine learning to structure unstructured data such as medical papers and publication.",
         image_path: "/images/pattie.jpg",
         deployed_url: "https://pattie.cymantix.com/",
         github_url: null,
         category: ["flask"],
         key_techs: ["flask"],
+    },
+    {
+        id: 10,
+        name: "2D Computer Graphics",
+        description:
+            "Implemented a C++ graphics library that can draw polygons, shaders, and much more.",
+        image_path: "/images/2DGraphics.jpg",
+        deployed_url: null,
+        github_url: null,
+        category: ["c++"],
+        key_techs: ["c++"],
+    },
+    {
+        id: 11,
+        name: "Seam Carving",
+        description:
+            "A 'smart' way to decrease the size of an image without loosing much important information. It uses dynamic programming.",
+        image_path: "/images/seamCarving.jpg",
+        deployed_url: "https://youtu.be/K0JNBQBAtys",
+        github_url: "https://github.com/MingliZhang/COMP-572",
+        category: ["matlab"],
+        key_techs: ["matlab"],
     },
 ];
