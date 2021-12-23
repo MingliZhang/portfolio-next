@@ -13,26 +13,28 @@ export interface ISkill {
 }
 
 export interface IProject {
-    id: number; 
+    id: number;
     name: string;
     description: string;
     image_path: string;
-    deployed_url: string;
-    github_url: string;
+    deployed_url: string | null;
+    github_url: string | null;
     category: Category[];
     key_techs: string[];
 }
 
 export type Category =
     | "react"
-    | "node"
+    | "next.js"
+    | "sails.js"
+    | "node.js"
     | "firebase"
-    | "express"
-    | "django"
-    | "mongo"
+    | "express.js"
+    | "mongoDB"
     | "mysql"
     | "tableau"
     | "wordpress"
-    | "jquery"
-    | "heroku"
-    | "css";
+    | "jQuery"
+    | "python"
+    | "LaTeX"
+    | "heroku";

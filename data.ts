@@ -82,8 +82,16 @@ export const projects: IProject[] = [
         image_path: "/images/miaomiao-chat.jpg",
         deployed_url: "https://miaomiao-chat.herokuapp.com/",
         github_url: "https://github.com/MingliZhang/final_426",
-        category: ["jquery", "css", "firebase", "express"],
-        key_techs: ["jquery", "css", "firebase", "express", "node", "heroku"],
+        category: ["jQuery", "express.js"],
+        key_techs: [
+            "HTML",
+            "CSS",
+            "jquery",
+            "firebase",
+            "express.js",
+            "node",
+            "heroku",
+        ],
     },
     {
         id: 1,
@@ -91,10 +99,10 @@ export const projects: IProject[] = [
         description:
             "Collaborated on a team of three classmates. Used logistic regression, Naive Bayes, support vector machine, and LSTM to train the computer to distinguish between real and fake news and we compared the accuracy of each model. The data is from Kaggle.",
         image_path: "/images/news.jpg",
-        deployed_url: "https://miaomiao-chat.herokuapp.com/",
+        deployed_url: "/documents/Report.pdf",
         github_url: "https://github.com/MingliZhang/COMP-562-Final-Project",
-        category: ["jquery", "css", "firebase", "express"],
-        key_techs: ["jquery", "css", "firebase", "express", "node", "heroku"],
+        category: ["python", "LaTeX"],
+        key_techs: ["python", "LaTeX"],
     },
     {
         id: 2,
@@ -102,9 +110,54 @@ export const projects: IProject[] = [
         description:
             "Implemented the classic 2048 game with a game model for modern web development course. The entire project took a day to finish and debug.",
         image_path: "/images/2048.jpg",
-        deployed_url: "",
+        deployed_url: "https://portfolio-a6fab.web.app/2048/index.html",
         github_url: "https://github.com/MingliZhang/2048",
-        category: ["jquery", "css"],
-        key_techs: ["jquery", "css"],
+        category: ["jQuery"],
+        key_techs: ["jQuery"],
+    },
+    {
+        id: 3,
+        name: "Old Portfolio",
+        description:
+            "The old version of my porfolio. It is build using only HTML, CSS, and JQuery",
+        image_path: "/images/old-portfolio.jpg",
+        deployed_url: "https://portfolio-a6fab.web.app/",
+        github_url: "https://github.com/MingliZhang/portfolio",
+        category: ["jQuery"],
+        key_techs: ["JQuery", "HTML", "CSS"],
+    },
+    {
+        id: 4,
+        name: "This Portfolio",
+        description:
+            "The portfolio you are currently viewing. It is more efficent, more elegant interface, and easy to expand.",
+        image_path: "/images/new-portfolio.jpg",
+        deployed_url: "https://minglizhang.com/",
+        github_url: "https://github.com/MingliZhang/portfolio-next",
+        category: ["next.js"],
+        key_techs: ["next.js", "Tailwindcss", "framer-motion"],
+    },
+    {
+        id: 5,
+        name: "Tech Zone",
+        description:
+            "I worked on this project during my internship at IBM as a full stack developer. Becasue this is a IBM internal plateform, no github repo or URL available.",
+        image_path: "/images/IBM.jpg",
+        deployed_url: null,
+        github_url: null,
+        category: ["next.js", "sails.js"],
+        key_techs: ["next.js", "Carbon", "sails.js"],
+    },
+    {
+        id: 6,
+        name: "How to get away from Covid 19",
+        description:
+            "Project for the 2020 fall Hackathon. Created with three others within 24 hours. The web app consisits of a covide-related game and a physical timer for washing hands.",
+        image_path: "/images/covid.jpg",
+        deployed_url: null,
+        github_url:
+            "https://github.com/MingliZhang/How-to-Get-Away-from-Covid-19",
+        category: ["jQuery"],
+        key_techs: ["jQuery"],
     },
 ];

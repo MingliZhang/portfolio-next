@@ -28,7 +28,7 @@ const Projects = () => {
     return (
         <motion.div
             className="px-5 py-2 overflow-y-auto"
-            style={{ height: "65vh" }}
+            style={{ height: "78vh" }}
             variants={routeAnimation}
             initial="initial"
             animate="animate"

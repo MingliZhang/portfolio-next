@@ -67,18 +67,24 @@ const ProjectCard: FunctionComponent<{
                             className="flex justify-center my-4 space-x-3"
                             variants={fadeInup}
                         >
-                            <a
-                                href={github_url}
-                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                            >
-                                <AiFillGithub /> <span>Github</span>
-                            </a>
-                            <a
-                                href={deployed_url}
-                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
-                            >
-                                <AiFillProject /> <span>Project</span>
-                            </a>
+                            {github_url && (
+                                <a
+                                    href={github_url}
+                                    target="_blank"
+                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                >
+                                    <AiFillGithub /> <span>Github</span>
+                                </a>
+                            )}
+                            {deployed_url && (
+                                <a
+                                    href={deployed_url}
+                                    target="_blank"
+                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                >
+                                    <AiFillProject /> <span>Project</span>
+                                </a>
+                            )}
                         </motion.div>
                     </motion.div>
                     <motion.div
@@ -106,7 +112,7 @@ const ProjectCard: FunctionComponent<{
                             {key_techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-2 py-1 my-1 bg-gray-200 rounded dark:bg-dark-200 "
+                                    className="px-2 py-1 my-1 capitalize bg-gray-200 rounded dark:bg-dark-200"
                                 >
                                     {tech}
                                 </span>

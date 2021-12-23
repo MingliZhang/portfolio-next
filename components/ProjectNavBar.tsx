@@ -8,12 +8,11 @@ const ProjectNavBar: FunctionComponent<{
     return (
         <div className="flex px-3 py-2 space-x-3 overflow-x-auto list-none ">
             <ProjectNavItem value="all" {...props} />
-            <ProjectNavItem value="react" {...props} />
-            <ProjectNavItem value="node" {...props} />
-            <ProjectNavItem value="firebase" {...props} />
-            <ProjectNavItem value="jquery" {...props} />
-            <ProjectNavItem value="css" {...props} />
-            <ProjectNavItem value="heroku" {...props} />
+            <ProjectNavItem value="next.js" {...props} />
+            <ProjectNavItem value="node.js" {...props} />
+            <ProjectNavItem value="jQuery" {...props} />
+            <ProjectNavItem value="express.js" {...props} />
+            <ProjectNavItem value="python" {...props} />
         </div>
     );
 };
