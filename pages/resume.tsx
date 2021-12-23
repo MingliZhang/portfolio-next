@@ -50,8 +50,9 @@ const Resume = () => {
                         <p className="my-3">
                             Working on the upload feature of{" "}
                             <a
-                  href="https://www.cymantix.com/pattie"
-                  target='_blank'
+                                href="https://www.cymantix.com/pattie"
+                                target="_blank"
+                                rel="noreferrer"
                                 className="text-blue-400"
                             >
                                 Pattie
