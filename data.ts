@@ -139,9 +139,9 @@ export const projects: IProject[] = [
     },
     {
         id: 5,
-        name: "Tech Zone",
+        name: "IBM's Tech Zone",
         description:
-            "I worked on this project during my internship at IBM as a full stack developer. Becasue this is a IBM internal platform, no github repo or URL available.",
+            "A platform for IBM to share its environments between development teams internally and contracted parties. I worked on this project during my internship at IBM as a full stack developer.",
         image_path: "/images/IBM.jpg",
         deployed_url: null,
         github_url: null,
