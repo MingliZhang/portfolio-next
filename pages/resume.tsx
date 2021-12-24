@@ -28,8 +28,8 @@ const Resume = () => {
                             UNC-Chapel Hill (2018-present)
                         </p>
                         <p className="my-3">
-                            I am currently persuing computer science (BS) and
-                            mathematics(BS) degree. Planning on persuing a
+                            I am currently pursuing computer science (BS) and
+                            mathematics(BS) degree. Planning on pursuing a
                             Masters degree in computer science.
                         </p>
                     </div>
@@ -57,7 +57,7 @@ const Resume = () => {
                             >
                                 Pattie
                             </a>
-                            . Also in charge of the quality assuance of Pattie
+                            . Also in charge of the quality assurance of Pattie
                             and other projects.
                         </p>
                     </div>

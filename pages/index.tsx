@@ -22,7 +22,7 @@ const Index = () => {
                 <h5 className="my-3 font-medium">
                     I am currently a senior undergraduate student pursuing a
                     computer science(BS) and mathematics(BS) degree, planning on
-                    pursuing a masters dgree in computer science next year.
+                    pursuing a masters degree in computer science next year.
                 </h5>
             </motion.div>
             <div

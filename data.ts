@@ -5,17 +5,17 @@ import { ISpecialty, ISkill, IProject } from "./type";
 export const specialties: ISpecialty[] = [
     {
         title: "Frontend Dev",
-        about: "I can build efficent and beautiful websites using <b>React</b>, <b>Next.js</b>, and <b>Flask</b>. I can also a fast learner to new frameworks.",
+        about: "I can build efficient and beautiful websites using <b>React</b>, <b>Next.js</b>, and <b>Flask</b>. I can also a fast learner to new frameworks.",
         Icon: RiComputerLine,
     },
     {
         title: "Backend Dev",
-        about: "I have expeience API building using <b>express.js</b> and <b>Sails.js</b> while connecting to <b>Firebase</b> and <b>MongoDB</b>.",
+        about: "I have experience API building using <b>express.js</b> and <b>Sails.js</b> while connecting to <b>Firebase</b> and <b>MongoDB</b>.",
         Icon: RiComputerLine,
     },
     {
         title: "Image Processing",
-        about: "I have significant knowledge about image processing using <b>C++</b> and <b>Matlab</b> with great efficency.",
+        about: "I have significant knowledge about image processing using <b>C++</b> and <b>Matlab</b> with great efficiency.",
         Icon: RiComputerLine,
     },
     {
@@ -25,17 +25,17 @@ export const specialties: ISpecialty[] = [
     },
     {
         title: "Testing",
-        about: "I have expeience in <b>test first development</b> and can use <b?postman/thunder client</b> to make automated testing for APIs",
+        about: "I have experience in <b>test first development</b> and can use <b?postman/thunder client</b> to make automated testing for APIs",
         Icon: RiComputerLine,
     },
     {
         title: "Quality Assurance",
-        about: "I have experience in doing full depth quality assurance and provide critical feedback for bug fixes and extream user error cases.",
+        about: "I have experience in doing full depth quality assurance and provide critical feedback for bug fixes and extreme user error cases.",
         Icon: RiComputerLine,
     },
     {
         title: "Data visualization",
-        about: "I have experiance in using <b>tableau</b> to visualize data into visual profiles and upload them to websites",
+        about: "I have experience in using <b>tableau</b> to visualize data into visual profiles and upload them to websites",
         Icon: RiComputerLine,
     },
     {
@@ -130,7 +130,7 @@ export const projects: IProject[] = [
         id: 4,
         name: "This Portfolio",
         description:
-            "The portfolio you are currently viewing. It is more efficent, more elegant interface, and easy to expand.",
+            "The portfolio you are currently viewing. It is more efficient, more elegant interface, and easy to expand.",
         image_path: "/images/new-portfolio.jpg",
         deployed_url: "https://minglizhang.com/",
         github_url: "https://github.com/MingliZhang/portfolio-next",
