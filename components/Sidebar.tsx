@@ -17,19 +17,12 @@ const Sidebar = () => {
             <Image
                 src="/images/Profile-pic.jpg"
                 alt="Profile image of me"
-                height="128"
-                width="128"
+                height="120"
+                width="120"
                 className="mx-auto rounded-full "
                 layout="intrinsic"
                 quality={100}
             />
-            {/* <img
-                src="/images/Profile-pic.jpg"
-                alt="Profile image of me"
-                height="128px"
-                width="128px"
-                className="mx-auto rounded-full "
-            /> */}
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Mingli </span>Zhang
             </h3>

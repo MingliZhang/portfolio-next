@@ -7,7 +7,7 @@ import Head from "next/head";
 const Resume = () => {
     return (
         <motion.div
-            className="px-6 py-2 overflow-y-auto h-[65vh]"
+            className="px-6 py-2"
             variants={routeAnimation}
             initial="initial"
             animate="animate"
@@ -35,6 +35,7 @@ const Resume = () => {
                             mathematics(BS) degree. Planning on pursuing a
                             Masters degree in computer science.
                         </p>
+                        <p>Current GPA: 3.80</p>
                     </div>
                 </motion.div>
                 <motion.div
@@ -63,6 +64,7 @@ const Resume = () => {
                             . Also in charge of the quality assurance of Pattie
                             and other projects.
                         </p>
+                        <p>The Experiences page contains more.</p>
                     </div>
                 </motion.div>
             </div>
@@ -71,7 +73,7 @@ const Resume = () => {
                     <h5 className="my-3 text-2xl font-bold ">
                         Major Languages
                     </h5>
-                    <div className="my-2">
+                    <div className="my-2 overflow-y-auto h-[30vh]">
                         {languages.map((language) => (
                             <Bar data={language} key={language.name} />
                         ))}
@@ -81,7 +83,7 @@ const Resume = () => {
                     <h5 className="my-3 text-2xl font-bold ">
                         Major Frameworks and Libraries
                     </h5>
-                    <div className="my-2">
+                    <div className="my-2 overflow-y-auto h-[30vh]">
                         {frameworks_libraries.map((framework_library) => (
                             <Bar
                                 data={framework_library}

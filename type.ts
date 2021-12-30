@@ -41,3 +41,14 @@ export type Category =
     | "python"
     | "LaTeX"
     | "heroku";
+
+export interface IExperience {
+    id: number;
+    company: string;
+    position: string;
+    start: string;
+    end: string;
+    description: string;
+    location: string;
+    Icon: IconType;
+}
