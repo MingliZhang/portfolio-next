@@ -9,8 +9,7 @@ import { fadeInleft, fadeInup, routeAnimation, stagger } from "../animations";
 const Index = () => {
     return (
         <motion.div
-            className="flex flex-col flex-grow px-6 pt-1"
-            style={{ height: "65vh" }}
+            className="flex flex-col flex-grow px-6 pt-1 h-[65vh]"
             variants={routeAnimation}
             initial="initial"
             animate="animate"

@@ -35,6 +35,7 @@ const Resume = () => {
                             mathematics(BS) degree. Planning on pursuing a
                             Masters degree in computer science.
                         </p>
+                        <p>Current GPA: 3.80</p>
                     </div>
                 </motion.div>
                 <motion.div
@@ -63,6 +64,7 @@ const Resume = () => {
                             . Also in charge of the quality assurance of Pattie
                             and other projects.
                         </p>
+                        <p>The Experiences page contains more.</p>
                     </div>
                 </motion.div>
             </div>

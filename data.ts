@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { BsCircleFill } from "react-icons/bs";
-import { ISpecialty, ISkill, IProject } from "./type";
+import { ISpecialty, ISkill, IProject, IExperience } from "./type";
 
 export const specialties: ISpecialty[] = [
     {
@@ -69,8 +69,8 @@ export const frameworks_libraries: ISkill[] = [
     { name: "React", level: "80%", Icon: BsCircleFill },
     { name: "Tailwind", level: "75%", Icon: BsCircleFill },
     { name: "BootStrap", level: "90%", Icon: BsCircleFill },
-    { name: "jQuery", level: "90%", Icon: BsCircleFill },
-    { name: "express.js", level: "70%", Icon: BsCircleFill },
+    { name: "JQuery", level: "90%", Icon: BsCircleFill },
+    { name: "Express.js", level: "70%", Icon: BsCircleFill },
 ];
 
 export const projects: IProject[] = [
@@ -214,5 +214,16 @@ export const projects: IProject[] = [
         github_url: "https://github.com/MingliZhang/COMP-572",
         category: ["matlab"],
         key_techs: ["matlab"],
+    },
+];
+
+export const experiences: IExperience[] = [
+    {
+        company: "IBM",
+        position: "Full-stack development summer Intern",
+        start: "",
+        end: "",
+        description: "",
+        location: "Remote",
     },
 ];

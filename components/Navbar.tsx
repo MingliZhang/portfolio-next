@@ -11,6 +11,7 @@ const Navbar = () => {
         if (pathname === "/") setActiveItem("About");
         if (pathname === "/projects") setActiveItem("Projects");
         if (pathname === "/resume") setActiveItem("Resume");
+        if (pathname === "/experiences") setActiveItem("Experiences");
     }, []);
     return (
         <div className="flex justify-between px-5 py-3 my-3">
@@ -35,6 +36,12 @@ const Navbar = () => {
                     setActiveItem={setActiveItem}
                     name="Resume"
                     route="/resume"
+                />
+                <Navitem
+                    activeItem={activeItem}
+                    setActiveItem={setActiveItem}
+                    name="Experiences"
+                    route="/experiences"
                 />
             </div>
         </div>
