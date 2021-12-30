@@ -1,52 +1,59 @@
+import { AiFillDatabase, AiFillFileImage } from "react-icons/ai";
 import { RiComputerLine } from "react-icons/ri";
-import { BsCircleFill } from "react-icons/bs";
+import { BsCircleFill, BsGraphUp } from "react-icons/bs";
+import { SiIbm, SiLenovo, SiSpeedtest } from "react-icons/si";
+import { IoMdSchool } from "react-icons/io";
+import { GiCookingPot } from "react-icons/gi";
+import { ImLab } from "react-icons/im";
+import { MdOutlineWeb, MdHighQuality, MdComputer } from "react-icons/md";
+import { TiFlowMerge } from "react-icons/ti";
 import { ISpecialty, ISkill, IProject, IExperience } from "./type";
 
 export const specialties: ISpecialty[] = [
     {
         title: `Frontend Dev`,
         about: `I can build efficient and beautiful websites using <b>React</b>, <b>Next.js</b>, and <b>Flask</b>. I can also a fast learner to new frameworks.`,
-        Icon: RiComputerLine,
+        Icon: MdOutlineWeb,
     },
     {
         title: `Backend Dev`,
         about: `I have experience API building using <b>express.js</b> and <b>Sails.js</b> while connecting to <b>Firebase</b> and <b>MongoDB</b>.`,
-        Icon: RiComputerLine,
+        Icon: AiFillDatabase,
     },
     {
         title: `Image Processing`,
         about: `I have significant knowledge about image processing using <b>C++</b> and <b>Matlab</b> with great efficiency.`,
-        Icon: RiComputerLine,
+        Icon: AiFillFileImage,
     },
     {
         title: `UX Design Workflow`,
         about: `I am able to deliver a well thought out and easy to understand UX workflow using <b>draw.io</b>`,
-        Icon: RiComputerLine,
+        Icon: TiFlowMerge,
     },
     {
         title: `Testing`,
         about: `I have experience in <b>test first development</b> and can use <b?postman/thunder client</b> to make automated testing for APIs`,
-        Icon: RiComputerLine,
+        Icon: SiSpeedtest,
     },
     {
         title: `Quality Assurance`,
         about: `I have experience in doing full depth quality assurance and provide critical feedback for bug fixes and extreme user error cases.`,
-        Icon: RiComputerLine,
+        Icon: MdHighQuality,
     },
     {
         title: `Data visualization`,
         about: `I have experience in using <b>tableau</b> to visualize data into visual profiles and upload them to websites`,
-        Icon: RiComputerLine,
+        Icon: BsGraphUp,
     },
     {
         title: `Cooking`,
         about: `I love baking and cooking Western and Chinese food.`,
-        Icon: RiComputerLine,
+        Icon: GiCookingPot,
     },
     {
         title: `Tech`,
         about: `I am up to date with what the latest hardware and software has to offer.`,
-        Icon: RiComputerLine,
+        Icon: MdComputer,
     },
 ];
 
@@ -216,6 +223,7 @@ export const experiences: IExperience[] = [
         <li>Streamlined administration content activities to remove the need of updating through deployment. This freed up development resources, increased speed to update content, and cut down the number of deploys.</li>
         <li>Worked closely with project management to provide feedback on component functionality and the flexibility that we could deliver to stakeholders to improve user experience on the site.</li>`,
         location: `Remote, USA`,
+        Icon: SiIbm,
     },
     {
         id: 1,
@@ -226,6 +234,7 @@ export const experiences: IExperience[] = [
         description: `<li>Working on the upload feature of <a className="text-blue-100 underline" href="https://www.cymantix.com/pattie" target="_blank" rel="noreferrer" className="text-blue-400">Pattie</a></li>
         <li>I am also in charge of the quality assurance of Pattie and other projects.</li>`,
         location: `Remote, USA`,
+        Icon: ImLab,
     },
     {
         id: 2,
@@ -236,6 +245,7 @@ export const experiences: IExperience[] = [
         description: `<li> Used MockingBot (Like Adobe XD) to designed Lenovo's B2B web store that provides all Lenovo's Fretailers with product information and is able to restock products easily.</li>
         <li>Determined the amount of resources needed for the project and reported to marketing and human resources. This earned the team more time to work on the project and it turned out well polished.</li>`,
         location: `Beijing, China`,
+        Icon: SiLenovo,
     },
     {
         id: 3,
@@ -245,5 +255,6 @@ export const experiences: IExperience[] = [
         end: `May 2019`,
         description: `<li>Taught students about transistors, computer chip design, instruction sets, memory structures, and machine language</li>`,
         location: `Chapel Hill, North Carolina, USA`,
+        Icon: IoMdSchool,
     },
 ];

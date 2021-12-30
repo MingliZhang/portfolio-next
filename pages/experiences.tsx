@@ -21,7 +21,7 @@ const experiences = () => {
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid gap-6 mx-4 lg:grid-cols-1"
+                className="grid grid-cols-1 gap-6 mx-4"
             >
                 {experiencesData.map((experience) => (
                     <motion.div

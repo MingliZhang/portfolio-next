@@ -50,4 +50,5 @@ export interface IExperience {
     end: string;
     description: string;
     location: string;
+    Icon: IconType;
 }

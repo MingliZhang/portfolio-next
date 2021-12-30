@@ -7,7 +7,7 @@ import { fadeInleft, fadeInup, stagger } from "../animations";
 import { IExperience } from "../type";
 
 const ExperienceCard: FunctionComponent<{ experience: IExperience }> = ({
-    experience: { company, position, start, end, description, location },
+    experience: { company, position, start, end, description, location, Icon },
 }) => {
     console.log(company, position, start, end, description, location);
     const createMarkup = () => {
@@ -16,15 +16,18 @@ const ExperienceCard: FunctionComponent<{ experience: IExperience }> = ({
         };
     };
     return (
-        <div className="p-2 ">
-            <h3 className="font-bold">{position}</h3>
-            <span>
-                {company} | {location} | {start} - {end}
-            </span>
-            <ul
-                className="list-disc list-inside"
-                dangerouslySetInnerHTML={createMarkup()}
-            ></ul>
+        <div className="flex items-center p-2 space-x-4">
+            <Icon className="w-12 h-12 text-green" />
+            <div>
+                <h3 className="font-bold">{position}</h3>
+                <span>
+                    {company} | {location} | {start} - {end}
+                </span>
+                <ul
+                    className="list-disc list-inside"
+                    dangerouslySetInnerHTML={createMarkup()}
+                ></ul>
+            </div>
         </div>
     );
 };
