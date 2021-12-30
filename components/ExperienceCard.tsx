@@ -10,7 +10,23 @@ const ExperienceCard: FunctionComponent<{ experience: IExperience }> = ({
     experience: { company, position, start, end, description, location },
 }) => {
     console.log(company, position, start, end, description, location);
-    return <div>Experience</div>;
+    const createMarkup = () => {
+        return {
+            __html: description,
+        };
+    };
+    return (
+        <div className="p-2 ">
+            <h3 className="font-bold">{position}</h3>
+            <span>
+                {company} | {location} | {start} - {end}
+            </span>
+            <ul
+                className="list-disc list-inside"
+                dangerouslySetInnerHTML={createMarkup()}
+            ></ul>
+        </div>
+    );
 };
 
 export default ExperienceCard;

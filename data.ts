@@ -211,15 +211,11 @@ export const experiences: IExperience[] = [
         position: `Full-stack development summer Intern`,
         start: `May 2021`,
         end: `Aug 2021`,
-        description: `- Developed the foundation of a validation service that automats a fully manual process that took weeks
-to accomplish.
-- Improved user experience on a platform that supports on average 2000+ users each month.
-- Streamlined administration content activities to remove the need of updating through deployment.
-This freed up development resources, increased speed to update content, and cut down the number of
-deploys.
-- Worked closely with project management to provide feedback on component functionality and the
-flexibility that we could deliver to stakeholders to improve user experience on the site.`,
-        location: `Remote`,
+        description: `<li>Developed the foundation of a validation service that automats a fully manual process that took weeks to accomplish.</li>
+        <li>Improved user experience on a platform that supports on average 2000+ users each month.</li>
+        <li>Streamlined administration content activities to remove the need of updating through deployment. This freed up development resources, increased speed to update content, and cut down the number of deploys.</li>
+        <li>Worked closely with project management to provide feedback on component functionality and the flexibility that we could deliver to stakeholders to improve user experience on the site.</li>`,
+        location: `Remote, USA`,
     },
     {
         id: 1,
@@ -227,14 +223,27 @@ flexibility that we could deliver to stakeholders to improve user experience on 
         position: `Software Enginner`,
         start: `Oct 2021`,
         end: `Present`,
-        description: `- Developed the foundation of a validation service that automats a fully manual process that took weeks
-to accomplish.
-- Improved user experience on a platform that supports on average 2000+ users each month.
-- Streamlined administration content activities to remove the need of updating through deployment.
-This freed up development resources, increased speed to update content, and cut down the number of
-deploys.
-- Worked closely with project management to provide feedback on component functionality and the
-flexibility that we could deliver to stakeholders to improve user experience on the site.`,
-        location: `Remote`,
+        description: `<li>Working on the upload feature of <a className="text-blue-100 underline" href="https://www.cymantix.com/pattie" target="_blank" rel="noreferrer" className="text-blue-400">Pattie</a></li>
+        <li>I am also in charge of the quality assurance of Pattie and other projects.</li>`,
+        location: `Remote, USA`,
+    },
+    {
+        id: 2,
+        company: `Lenovo`,
+        position: `UI/UX Design Intern`,
+        start: `Jul 2017`,
+        end: `Aug 2017`,
+        description: `<li> Used MockingBot (Like Adobe XD) to designed Lenovo's B2B web store that provides all Lenovo's Fretailers with product information and is able to restock products easily.</li>
+        <li>Determined the amount of resources needed for the project and reported to marketing and human resources. This earned the team more time to work on the project and it turned out well polished.</li>`,
+        location: `Beijing, China`,
+    },
+    {
+        id: 3,
+        company: `UNC Department of Computer Science`,
+        position: `Undergraduate Learning Assistant for Computer Organization`,
+        start: `Jan 2019`,
+        end: `May 2019`,
+        description: `<li>Taught students about transistors, computer chip design, instruction sets, memory structures, and machine language</li>`,
+        location: `Chapel Hill, North Carolina, USA`,
     },
 ];
