@@ -19,7 +19,7 @@ const experiences = () => {
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[75vh]"
+                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[50vh]"
             >
                 {experiencesData.map((experience) => (
                     <motion.div
