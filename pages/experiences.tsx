@@ -16,10 +16,18 @@ const experiences = () => {
                 <title>Experiences | Mingli Zhang | Web Developer</title>
             </Head>
             <motion.div
+                variants={fadeInleft}
+                initial="initial"
+                animate="animate"
+                className="mx-4 my-4"
+            >
+                <p>These are my major working experiances.</p>
+            </motion.div>
+            <motion.div
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[50vh]"
+                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[60vh]"
             >
                 {experiencesData.map((experience) => (
                     <motion.div

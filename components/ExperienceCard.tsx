@@ -9,7 +9,6 @@ import { IExperience } from "../type";
 const ExperienceCard: FunctionComponent<{ experience: IExperience }> = ({
     experience: { company, position, start, end, description, location, Icon },
 }) => {
-    console.log(company, position, start, end, description, location);
     const createMarkup = () => {
         return {
             __html: description,
