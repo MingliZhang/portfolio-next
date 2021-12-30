@@ -13,6 +13,7 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
                         rel="stylesheet"
                     />
+                    <meta name="keywords" content="Titile" />
                 </Head>
                 <body className="bg-gradient-to-r from-green to-blue-400 dark:from-dark dark:to-dark-700 dark:text-white">
                     <Main />

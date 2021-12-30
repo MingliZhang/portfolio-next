@@ -1,9 +1,11 @@
-import { motion } from "framer-motion";
-import { GetServerSideProps, GetStaticProps } from "next";
-import SpecialtyCard from "../components/SpecialtyCard";
-import { specialties } from "../data";
+import Head from "next/head";
 
+import SpecialtyCard from "../components/SpecialtyCard";
+
+import { motion } from "framer-motion";
+import { specialties } from "../data";
 import { fadeInleft, fadeInup, routeAnimation, stagger } from "../animations";
+
 const Index = () => {
     return (
         <motion.div
@@ -14,6 +16,9 @@ const Index = () => {
             animate="animate"
             exit="exit"
         >
+            <Head>
+                <title>Home | Mingli Zhang | Web Developer</title>
+            </Head>
             <motion.div
                 variants={fadeInleft}
                 initial="initial"

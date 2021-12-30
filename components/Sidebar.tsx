@@ -19,7 +19,7 @@ const Sidebar = () => {
                 alt="Profile image of me"
                 height="128"
                 width="128"
-                className="mx-auto rounded-full"
+                className="mx-auto rounded-full "
                 layout="intrinsic"
                 quality={100}
             />
@@ -53,16 +53,16 @@ const Sidebar = () => {
                 Download Resume
             </a>
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-                <a href="">
+                <a href="" aria-label="LinkedIn">
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="" aria-label="Github">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="" aria-label="Instagram">
                     <AiFillInstagram className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="" aria-label="Facebook">
                     <AiFillFacebook className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>
