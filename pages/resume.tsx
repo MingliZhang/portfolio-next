@@ -73,7 +73,7 @@ const Resume = () => {
                     <h5 className="my-3 text-2xl font-bold ">
                         Major Languages
                     </h5>
-                    <div className="my-2 overflow-y-auto h-[35vh]">
+                    <div className="my-2 overflow-y-auto h-[30vh]">
                         {languages.map((language) => (
                             <Bar data={language} key={language.name} />
                         ))}
@@ -83,7 +83,7 @@ const Resume = () => {
                     <h5 className="my-3 text-2xl font-bold ">
                         Major Frameworks and Libraries
                     </h5>
-                    <div className="my-2 overflow-y-auto h-[35vh]">
+                    <div className="my-2 overflow-y-auto h-[30vh]">
                         {frameworks_libraries.map((framework_library) => (
                             <Bar
                                 data={framework_library}

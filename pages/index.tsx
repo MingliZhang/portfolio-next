@@ -30,7 +30,7 @@ const Index = () => {
                 </h5>
             </motion.div>
             <div
-                className="flex-grow p-4 mt-5 overflow-y-auto bg-gray-400 dark:bg-dark-100 h-[65vh]"
+                className="flex-grow p-4 mt-5 overflow-y-auto bg-gray-400 dark:bg-dark-100 h-[50vh]"
                 style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
                 <h6 className="my-3 text-xl font-bold tracking-wide">
