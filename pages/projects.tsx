@@ -41,7 +41,7 @@ const Projects = () => {
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}
             />
-            <div className="overflow-y-auto h-[52vh]">
+            <div className="overflow-y-auto h-[70vh]">
                 <motion.div
                     className="relative grid grid-cols-12 gap-4 my-3 "
                     variants={stagger}
