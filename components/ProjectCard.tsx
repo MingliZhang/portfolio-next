@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FunctionComponent, useState } from "react";
+import { FunctionComponent } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { fadeInleft, fadeInup, stagger } from "../animations";

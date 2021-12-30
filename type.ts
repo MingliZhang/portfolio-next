@@ -42,11 +42,12 @@ export type Category =
     | "LaTeX"
     | "heroku";
 
-export interface IExperience{
-  company: string,
-  position: string,
-  start: string,
-  end: string,
-  description: string,
-  location: string
+export interface IExperience {
+    id: number;
+    company: string;
+    position: string;
+    start: string;
+    end: string;
+    description: string;
+    location: string;
 }

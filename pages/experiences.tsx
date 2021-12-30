@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Head from "next/head";
-import { fadeInleft, routeAnimation } from "../animations";
+import { fadeInleft, fadeInup, routeAnimation, stagger } from "../animations";
+import ExperienceCard from "../components/ExperienceCard";
 import { experiences as experiencesData } from "../data";
 
 const experiences = () => {
@@ -15,12 +16,12 @@ const experiences = () => {
             <Head>
                 <title>Experiences | Mingli Zhang | Web Developer</title>
             </Head>
-            <motion.div
-                variants={fadeInleft}
-                initial="initial"
-                animate="animate"
-            >
-                <h3>The following are all of my work experiences</h3>
+            <motion.div variants={stagger} initial="initial" animate="animate">
+                {experiencesData.map((experience) => (
+                    <motion.div variants={fadeInup} key={experience.id}>
+                        <ExperienceCard experience={experience} />
+                    </motion.div>
+                ))}
             </motion.div>
         </motion.div>
     );
