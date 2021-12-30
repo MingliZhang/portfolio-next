@@ -44,7 +44,7 @@ const ProjectCard: FunctionComponent<{
             <p className="my-2 text-center">{name}</p>
 
             {showDetail === id && (
-                <div className="fixed z-10 grid lg:left-[35%] h-auto gap-6 p-4 px-5 my-10 text-black bg-gray-100 rounded-lg top-36 lg:right-[20%] lg:px-5 sm:px-20 md:px-32 md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+                <div className="fixed z-10 grid lg:left-[35vw] h-auto gap-6 p-4 px-5 my-10 text-black bg-gray-100 rounded-lg lg:grid-cols-2 lg:top-[14vh] lg:w-[45vw] lg:px-5 top-[15vh] md:left-36 md:p-5 md:right-36 sm:left-24 sm:right-24 left-10 right-10 gap-x-12 dark:text-white dark:bg-dark-100">
                     <motion.div
                         variants={stagger}
                         initial="initial"
@@ -72,7 +72,7 @@ const ProjectCard: FunctionComponent<{
                                     href={github_url}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-lg dark:bg-dark-200"
                                 >
                                     <AiFillGithub /> <span>Github</span>
                                 </a>
@@ -82,7 +82,7 @@ const ProjectCard: FunctionComponent<{
                                     href={deployed_url}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                    className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 rounded-lg dark:bg-dark-200"
                                 >
                                     <AiFillProject /> <span>Project</span>
                                 </a>
@@ -114,7 +114,7 @@ const ProjectCard: FunctionComponent<{
                             {key_techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-2 py-1 my-1 capitalize bg-gray-200 rounded dark:bg-dark-200"
+                                    className="px-2 py-1 my-1 capitalize bg-gray-200 rounded-lg dark:bg-dark-200 "
                                 >
                                     {tech}
                                 </span>
