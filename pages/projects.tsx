@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { useState } from "react";
 import { fadeInup, routeAnimation, stagger } from "../animations";
 import ProjectCard from "../components/ProjectCard";
@@ -27,13 +28,15 @@ const Projects = () => {
     };
     return (
         <motion.div
-            className="px-5 py-2 overflow-y-auto"
-            style={{ height: "78vh" }}
+            className="px-5 py-2 overflow-y-auto h-[65vh]"
             variants={routeAnimation}
             initial="initial"
             animate="animate"
             exit="exit"
         >
+            <Head>
+                <title>Projects | Mingli Zhang | Web Developer</title>
+            </Head>
             <ProjectNavBar
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}

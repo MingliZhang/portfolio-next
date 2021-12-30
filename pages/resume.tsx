@@ -3,16 +3,19 @@ import Bar from "../components/Bar";
 import { motion } from "framer-motion";
 
 import { fadeInup, routeAnimation } from "../animations";
+import Head from "next/head";
 const Resume = () => {
     return (
         <motion.div
-            className="px-6 py-2 overflow-y-auto"
-            style={{ height: "78vh" }}
+            className="px-6 py-2 overflow-y-auto h-[65vh]"
             variants={routeAnimation}
             initial="initial"
             animate="animate"
             exit="exit"
         >
+            <Head>
+                <title>Resume | Mingli Zhang | Web Developer</title>
+            </Head>
             <div className="grid gap-6 md:grid-cols-2">
                 <motion.div
                     variants={fadeInup}
