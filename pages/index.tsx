@@ -30,14 +30,14 @@ const Index = () => {
                 </h5>
             </motion.div>
             <div
-                className="flex-grow p-4 mt-5 overflow-y-auto bg-gray-400 dark:bg-dark-100 h-[65vh]"
+                className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 overflow-y-auto h-[45vh]"
                 style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
                 <h6 className="my-3 text-xl font-bold tracking-wide">
                     My specialties
                 </h6>
                 <motion.div
-                    className="grid gap-6 lg:grid-cols-2"
+                    className="grid gap-6 lg:grid-cols-2 "
                     variants={stagger}
                     initial="initial"
                     animate="animate"

@@ -9,7 +9,7 @@ import Navbar from "../components/Navbar";
 function MyApp({ Component, pageProps, router }) {
     return (
         <ThemeProvider attribute="class">
-            <div className="grid grid-cols-12 gap-6 px-5 my-10 lg:px-48 sm:px-20 md:px-32">
+            <div className="grid grid-cols-12 gap-6 px-5 my-[4vh] lg:px-48 sm:px-20 md:px-32 h-[65vh]">
                 <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-200 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
                     <Sidebar />
                 </div>
