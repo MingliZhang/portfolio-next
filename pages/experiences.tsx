@@ -5,14 +5,12 @@ import ExperienceCard from "../components/ExperienceCard";
 import { experiences as experiencesData } from "../data";
 
 const experiences = () => {
-    console.log(experiencesData);
     return (
         <motion.div
             variants={routeAnimation}
             initial="initial"
             animate="animate"
             exit="exit"
-            className="overflow-y-auto h-[65vh]"
         >
             <Head>
                 <title>Experiences | Mingli Zhang | Web Developer</title>
@@ -21,7 +19,7 @@ const experiences = () => {
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid grid-cols-1 gap-6 mx-4"
+                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[75vh]"
             >
                 {experiencesData.map((experience) => (
                     <motion.div

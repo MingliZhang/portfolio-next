@@ -17,8 +17,8 @@ const Sidebar = () => {
             <Image
                 src="/images/Profile-pic.jpg"
                 alt="Profile image of me"
-                height="180"
-                width="180"
+                height="120"
+                width="120"
                 className="mx-auto rounded-full "
                 layout="intrinsic"
                 quality={100}
