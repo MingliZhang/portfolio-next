@@ -32,7 +32,7 @@ export const specialties: ISpecialty[] = [
     },
     {
         title: `Testing`,
-        about: `I have experience in <b>test first development</b> and can use <b?postman/thunder client</b> to make automated testing for APIs`,
+        about: `I have experience in <b>test first development</b> and can use <b>postman/thunder client</b> to make automated testing for APIs`,
         Icon: SiSpeedtest,
     },
     {
@@ -47,7 +47,7 @@ export const specialties: ISpecialty[] = [
     },
     {
         title: `Cooking`,
-        about: `I love baking and cooking Western and Chinese food.`,
+        about: `I love baking and cooking. I am currently fascinated with coffee brewing especially espresso.`,
         Icon: GiCookingPot,
     },
     {
