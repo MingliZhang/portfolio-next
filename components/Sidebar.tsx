@@ -38,8 +38,8 @@ const Sidebar = () => {
 			</a>
 			<a
 				className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
-				href="https://www.canva.com/design/DAD4J5MY-C8/view"
-				download="Mingli Zhang's resume">
+				href="/documents/Resume.pdf"
+				download="Mingli Zhang's Resume">
 				<GiTie className="w-6 h-6 " />
 				Download Resume
 			</a>
