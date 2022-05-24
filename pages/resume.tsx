@@ -1,9 +1,9 @@
-import { languages, frameworks_libraries } from "../data";
-import Bar from "../components/Bar";
-import { motion } from "framer-motion";
+import { languages, frameworks_libraries } from '../data';
+import Bar from '../components/Bar';
+import { motion } from 'framer-motion';
 
-import { fadeInup, routeAnimation } from "../animations";
-import Head from "next/head";
+import { fadeInup, routeAnimation } from '../animations';
+import Head from 'next/head';
 const Resume = () => {
     return (
         <motion.div
@@ -11,8 +11,7 @@ const Resume = () => {
             variants={routeAnimation}
             initial="initial"
             animate="animate"
-            exit="exit"
-        >
+            exit="exit">
             <Head>
                 <title>Resume | Mingli Zhang | Web Developer</title>
             </Head>
@@ -20,8 +19,7 @@ const Resume = () => {
                 <motion.div
                     variants={fadeInup}
                     initial="initial"
-                    animate="animate"
-                >
+                    animate="animate">
                     <h5 className="my-3 text-2xl font-bold">Education</h5>
                     <div>
                         <h5 className="my-2 text-xl font-bold">
@@ -41,8 +39,7 @@ const Resume = () => {
                 <motion.div
                     variants={fadeInup}
                     initial="initial"
-                    animate="animate"
-                >
+                    animate="animate">
                     <h5 className="my-3 text-2xl font-bold">
                         Current position
                     </h5>
@@ -52,13 +49,12 @@ const Resume = () => {
                         </h5>
                         <p className="font-semibold">Cymantix (2021-present)</p>
                         <p className="my-3">
-                            Working on the upload feature of{" "}
+                            Working on the upload feature of{' '}
                             <a
                                 href="https://www.cymantix.com/pattie"
                                 target="_blank"
                                 rel="noreferrer"
-                                className="text-blue-400"
-                            >
+                                className="text-blue-400">
                                 Pattie
                             </a>
                             . Also in charge of the quality assurance of Pattie
