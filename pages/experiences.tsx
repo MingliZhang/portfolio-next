@@ -25,7 +25,7 @@ const experiences = () => {
                 variants={stagger}
                 initial="initial"
                 animate="animate"
-                className="grid h-full grid-cols-1 gap-6 mx-4 overflow-y-auto">
+                className="grid grid-cols-1 gap-6 mx-4 overflow-y-auto h-[60vh]">
                 {experiencesData.map((experience) => (
                     <motion.div
                         variants={fadeInup}
