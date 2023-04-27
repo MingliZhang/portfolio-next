@@ -22,9 +22,10 @@ const Index = () => {
                 initial="initial"
                 animate="animate">
                 <h5 className="my-3 font-medium">
-                    I am currently a senior undergraduate student pursuing a
-                    computer science(BS) and mathematics(BS) degree, planning on
-                    pursuing a masters degree in computer science next year.
+                    I am a master student at UNC-Chapel Hill studying Computer
+                    Science, with experience in web development, database, data
+                    analysis, and systems research. Was a software engineer at
+                    Cymantix and interned at IBM as a full-stack developer.
                 </h5>
             </motion.div>
             <div

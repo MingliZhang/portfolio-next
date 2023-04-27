@@ -14,13 +14,13 @@ const experiences = () => {
             <Head>
                 <title>Experiences | Mingli Zhang | Web Developer</title>
             </Head>
-            <motion.div
+            {/* <motion.div
                 variants={fadeInleft}
                 initial="initial"
                 animate="animate"
                 className="mx-4 my-4">
                 <p>These are my major working experiances.</p>
-            </motion.div>
+            </motion.div> */}
             <motion.div
                 variants={stagger}
                 initial="initial"
